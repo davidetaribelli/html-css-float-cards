@@ -1,6 +1,7 @@
 *{
     font-family: 'Fredoka One', cursive;
     box-sizing: border-box;
+    margin: 0;
 }
 
 body{
@@ -11,37 +12,67 @@ body{
 /****************
     titolo
 *****************/
+
 header h1{
     font-size: 40px;
     color: #E53170;
 }
 
+/************************
+    corpo della pagina 
+************************/
+
 main{
      width: 1000px;
-     margin: 0 auto;
+     margin: 50px auto;
 }
 
 main .paragrafo p{
-    font-size: 20px;;
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 
 .carte{
-    width: 100%;
-    margin: auto;
+    width: 100%;  
 }
 
 
-.carte div{
-    width:calc(100% / 3 - 30px);
+.carta{
+    width:30%;
     height: 100px;
-    background-color: green;
+    background-color: #0F0E17;
+    color: white;
     float: left;
-    margin: 30px 15px;
-    
+    margin: 30px 15px;  
+    line-height: 2;
+    text-align: left;
+    box-shadow: 1px 1px 1px 3px #E7E7E6;
 }
 
-.carte::after{
+.carta a{
+    color: #48bde0;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.carta h4{
+    font-weight: 300;
+}
+
+.carta h5{
+    font-weight: 100;
+}
+
+
+.carte div img{
+    height: 100px;
+    float: left;
+    margin-right: 15px;
+}
+
+.carte::after {
     content: '';
     clear: both;
     display: table;
 }
+
