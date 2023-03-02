@@ -1,0 +1,47 @@
+*{
+    font-family: 'Fredoka One', cursive;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFFFE;
+    text-align: center;   
+}
+
+/****************
+    titolo
+*****************/
+header h1{
+    font-size: 40px;
+    color: #E53170;
+}
+
+main{
+     width: 1000px;
+     margin: 0 auto;
+}
+
+main .paragrafo p{
+    font-size: 20px;;
+}
+
+.carte{
+    width: 100%;
+    margin: auto;
+}
+
+
+.carte div{
+    width:calc(100% / 3 - 30px);
+    height: 100px;
+    background-color: green;
+    float: left;
+    margin: 30px 15px;
+    
+}
+
+.carte::after{
+    content: '';
+    clear: both;
+    display: table;
+}
