@@ -76,7 +76,7 @@ main .paragrafo p{
     margin-right: 15px;
 }
 
-.carta::after {
+.carte::after {
     content: '';
     clear: both;
     display: table;
